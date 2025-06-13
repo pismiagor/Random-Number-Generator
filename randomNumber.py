@@ -1,4 +1,5 @@
 from time import *
+
 def randomNumberGenerator(currentTime):
     number = str(currentTime).replace(".", "")
     j = 0
@@ -18,7 +19,7 @@ def percengateCalculator(x: int):
             
     print("Percentage of 0 is {} \nPercentage of 1 is {} \nPercentage of 2 is {} \nPercentage of 3 is {} \nPercentage of 4 is {} \nPercentage of 5 is {} \nPercentage of 6 is {} \nPercentage of 7 is {} \nPercentage of 8 is {} \nPercentage of 9 is {} \n".format(*bits) )
         
-    return 0
+    return None
     
 
 print(percengateCalculator(100))
